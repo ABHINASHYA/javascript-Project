@@ -51,12 +51,32 @@ const users = [
 
 users[1].email
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));//gives only keys in form of array
-console.log(Object.values(tinderUser));//gives only values in form of array
-console.log(Object.entries(tinderUser)); //gives key value pair in form of array of arrays
-// 
-console.log(tinderUser.hasOwnProperty("isLoggedIn")); //to check if the property is present in the object or not
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));//gives only keys in form of array
+// console.log(Object.values(tinderUser));//gives only values in form of array
+// console.log(Object.entries(tinderUser)); //gives key value pair in form of array of arrays
+// // 
+// console.log(tinderUser.hasOwnProperty("isLoggedIn")); //to check if the property is present in the object or not
+
+
+const course = {
+	courseName: "JavaScript",
+	price: "999",
+	courseInstructor: "Abhinash"
+}
+
+const { courseInstructor: instructor } = course //object destructuring
+
+//console.log(courseInstructor);
+
+console.log(instructor);
+
+
+// Api
+
+//https://randomuser.me/api/
+
+//https://jsonformatter.org/
 
 
 
